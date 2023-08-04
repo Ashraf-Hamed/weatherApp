@@ -1,0 +1,105 @@
+nav {
+    background-color: #1E202B;
+    padding: 25px 0 !important;
+}
+
+
+
+ul li a {
+
+    color: white !important;
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    transition:color 0.3s ease , border 0.3s ease;
+    font-weight: 400;
+}
+
+ul li a:hover {
+    color: #009AD8 !important;
+    border-bottom: 2px solid #009AD8 !important;
+}
+
+
+ul li {
+    margin-right: 25px !important;
+    text-align: center;
+}
+
+ul li a.active {
+    color: #009AD8 !important;
+    border-bottom: 2px solid #009AD8 !important;
+}    
+
+
+
+
+
+.main {
+    background-image: url('../iamge/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+input  {
+    width: 80%;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    position: relative;
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+
+.btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    border-radius: 30px;
+    padding: 0 40px;
+}
+
+
+
+.bg-head {
+    background-color:#2D303D !important; ;
+}
+
+.bg-card {
+    background-color: #323544;
+}
+
+
+.dayOne  h1{
+
+    font-size: 50px;
+}
+
+
+.error {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: rgb(243 233 233 / 65%);
+    background-color: #fff;
+    border: var(--bs-border-width) solid rgba(244, 241, 241, 0.15);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
